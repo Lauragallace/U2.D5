@@ -1,0 +1,136 @@
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffc017;
+  color: #191919;
+  padding-top: 1.4em;
+  padding-bottom: 1.4em;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid black;
+  font-family: "Spectral", serif;
+}
+header nav {
+  display: inline-block;
+}
+header nav li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+  margin-right: 1em;
+}
+button {
+  padding: 4px 7px;
+  background-color: #191919;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.logo {
+  display: flex;
+  flex-grow: 1;
+  justify-content: start;
+  margin-left: 13em;
+}
+main {
+  background: #ffc017;
+  position: relative;
+  padding-left: 5em;
+  overflow: hidden;
+}
+h1 {
+  font-size: 2.6rem;
+  line-height: 1.2;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.7em;
+  margin-left: 3em;
+}
+p {
+  margin-left: 8em;
+}
+.start {
+  margin-top: 2em;
+  margin-left: 8em;
+}
+.artwork {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transform: translate(500px);
+  padding: 2em;
+}
+.section {
+  padding: 1em 3em;
+  border-bottom: 1px solid;
+}
+.section h2 {
+  margin: 1em;
+}
+.trending {
+  display: flex;
+  margin: 0.1em 2em 1em 2em;
+  width: 300px;
+}
+.author {
+  display: flex;
+  align-items: center;
+}
+.author img {
+  border-radius: 50%;
+  transform: scale(0.6);
+}
+.number {
+  font-weight: bold;
+  opacity: 0.3;
+  font-size: 1.7em;
+  margin-top: 0.2em;
+  margin-right: 0.5em;
+}
+.author-name {
+  font-size: 0.7em;
+  font-weight: bold;
+}
+.trending h3 {
+  font-weight: bold;
+  font-size: 0.9em;
+  margin: 0.3em auto0.4em;
+}
+.date {
+  font-size: 0.6em;
+  opacity: 0.5;
+  display: inline-block;
+}
+.star {
+  margin-left: 1em;
+  opacity: 1;
+}
+.trending-articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+.date-container {
+  display: flex;
+  align-items: center;
+}
+.date-container img {
+  margin-left: 0.51em;
+}
+.aside {
+  padding: 3em 3em;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  width: 30%;
+}
+.footer h3 {
+  white-space: nowrap;
+  font-weight: bold;
+}
